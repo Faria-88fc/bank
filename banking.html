@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- tailwind -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-blue-100">
+    <main>
+        <section>
+            <h1 class="text-4xl font-medium text-gray-900 m-5">Bank Asia private Ltd</h1>
+            <div class=" font-medium text-gray-500 m-5">
+                <h3 class="text-2xl mb-2 text-black">your account information</h3>
+                <p> <span class="text-sm text-black">Name:</span>  ashikur rahman</p>
+                <p> <span class="text-sm text-black">acc no. :</span>  98xxxxxxx478</p>
+                <p> <span class="text-sm text-black">add. :</span>  dhaka, bangladesh</p>
+                <p> <span class="text-sm text-black">mobile no. :</span>  01xxxxxxxxx9</p>
+                
+            </div>
+            
+        </section>
+        <section class="mx-auto w-3/4">
+            <p class="font-medium text-3xl text-center mb-4 text-gray-700">Account transaction information</p>
+            <div class="grid grid-cols-3 gap-4 text-white">
+                <div class="bg-blue-400 py-8 rounded">
+                    <p class="text-2xl px-8 pb-4 font-bold">Deposit</p>
+                    <p class="text-5xl px-8 ">$<span id="deposit">3000</span></p>
+                </div>
+                <div class="bg-blue-300 py-8 rounded">
+                    <p class="text-2xl px-8 pb-4 font-bold">withdraw</p>
+                    <p class="text-5xl px-8 ">$<span id="withdraw">00</span></p>
+                </div>
+                <div class="bg-blue-400 py-8 rounded">
+                    <p class="text-2xl px-8 pb-4 font-bold">balance</p>
+                    <p class="text-5xl px-8 ">$<span id="balance-total">3400</span></p>
+                </div>
+            </div>
+        </section>
+        <section class="my-8 mx-auto w-3/4">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="bg-blue-400 py-8 rounded pl-8">
+                    <p class="text-3xl font-medium">Deposit</p>
+                    <input id="deposit-input" class="border-0 rounded w-2/4 my-4 py-2 px-4 font-medium text-black" type="" placeholder="please enter amount"><br>
+                    <button id="btn-deposit" class="border-0 rounded text-white bg-red-500 py-2 px-6">submit</button>
+                </div>
+                <div class="bg-blue-300 py-8 rounded pl-8">
+                    <p class="text-3xl font-medium">withdraw</p>
+                    <input id="withdraw-input" class="border-0 rounded w-2/4 my-4 py-2 px-4 font-medium text-black" type="" placeholder="please enter amount"><br>
+                    <button id="btn-withdraw" class="border-0 rounded text-white bg-red-500 py-2 px-6">submit</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="jss/banking.js"></script>
+</body>
+</html>
