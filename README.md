@@ -1,6 +1,4 @@
-#bank
-
-# faria-88fc.github.io/bank/index.html
+# bank
 
 email: abcd@gmail.com
 
